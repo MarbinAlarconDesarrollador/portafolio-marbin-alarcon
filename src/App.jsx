@@ -31,29 +31,29 @@ function App() {
   const projectsData = [
     {
       id: 1,
-      title: "Bot de Reservas WhatsApp",
+      title: "Wordle Pro - Torneo Móvil ",
       description: "Sistema inteligente que gestiona flujos de clientes, horarios y confirmaciones automáticamente mediante la API de WhatsApp Business.",
-      tech: "Node.js",
-      tags: ["Node.js", "WhatsApp API"],
-      image: "proyecto1.png",
-      link: "https://github.com/MarbinAlarconDesarrollador"
+      tech: "VITE + JavaScript + Tailwind CSS + Node.js",
+      tags: ["Node.js", "VITE", "JavaScript", "Tailwind CSS"],
+      image: "proyecto3.png",
+      link: "https://marbinalarcondesarrollador.github.io/WordleTorneoMovil/"
     },
     {
       id: 2,
-      title: "Dashboard Accesible (WCAG)",
+      title: "Vita Mahjong Deluxe - PWA",
       description: "Panel administrativo diseñado rigurosamente bajo estándares de accesibilidad, optimizado para lectores de pantalla y navegación por teclado.",
-      tech: "React",
-      tags: ["React", "A11y"],
-      image: "proyecto2.png",
-      link: "https://github.com/MarbinAlarconDesarrollador"
+      tech: "CSS + JavaScript + HTML",
+      tags: ["CSS", "JavaScript", "HTML"],
+      image: "proyecto1.png",
+      link: "https://marbinalarcondesarrollador.github.io/Vita-Mahjong/"
     },
     {
       id: 3,
-      title: "Web App Accesible",
+      title: "Block Puzzle",
       description: "Interfaz diseñada para alta legibilidad, navegación por teclado y soporte total de lectores de pantalla.",
       tech: "React",
       tags: ["React", "A11y"],
-      image: "proyecto2.png",
+      image: "proyecto4.png",
       link: "https://github.com/MarbinAlarconDesarrollador"
     },
     {
