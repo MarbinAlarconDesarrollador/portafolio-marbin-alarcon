@@ -35,7 +35,7 @@ function App() {
       description: "Sistema inteligente que gestiona flujos de clientes, horarios y confirmaciones automáticamente mediante la API de WhatsApp Business.",
       tech: "Node.js",
       tags: ["Node.js", "WhatsApp API"],
-      image: "/proyecto1.png",
+      image: "proyecto1.png",
       link: "https://github.com/MarbinAlarconDesarrollador"
     },
     {
@@ -44,7 +44,7 @@ function App() {
       description: "Panel administrativo diseñado rigurosamente bajo estándares de accesibilidad, optimizado para lectores de pantalla y navegación por teclado.",
       tech: "React",
       tags: ["React", "A11y"],
-      image: "/proyecto2.png",
+      image: "proyecto2.png",
       link: "https://github.com/MarbinAlarconDesarrollador"
     },
     {
@@ -53,7 +53,7 @@ function App() {
       description: "Interfaz diseñada para alta legibilidad, navegación por teclado y soporte total de lectores de pantalla.",
       tech: "React",
       tags: ["React", "A11y"],
-      image: "/proyecto2.png",
+      image: "proyecto2.png",
       link: "https://github.com/MarbinAlarconDesarrollador"
     },
     {
@@ -62,7 +62,7 @@ function App() {
       description: "Sistema de gestión de cursos con funcionalidades para estudiantes y profesores, integrado con pasarelas de pago.",
       tech: "PHP",
       tags: ["PHP", "Laravel"],
-      image: "/proyecto2.png",
+      image: "proyecto2.png",
       link: "https://github.com/MarbinAlarconDesarrollador"
     }
   ];
@@ -203,7 +203,7 @@ function App() {
       {/* --- HERO --- */}
       <header className="min-h-screen flex flex-col justify-center items-center px-6 text-center">
         <motion.div variants={fadeInUp} initial="hidden" animate="visible">
-          <motion.img whileHover={{ scale: 1.05 }} src="/mi_foto.jpeg" className="w-40 h-40 rounded-[2.5rem] border-8 border-white dark:border-slate-800 shadow-2xl mx-auto mb-10 object-cover rotate-3" />
+          <motion.img whileHover={{ scale: 1.05 }} src="mi_foto.jpeg" className="w-40 h-40 rounded-[2.5rem] border-8 border-white dark:border-slate-800 shadow-2xl mx-auto mb-10 object-cover rotate-3" />
           <h1 className="text-6xl md:text-8xl font-black mb-6 tracking-tighter text-[#1e4a6d] dark:text-white">
             Marbin <span className="text-[#48afe1]">Alarcón</span>
           </h1>
