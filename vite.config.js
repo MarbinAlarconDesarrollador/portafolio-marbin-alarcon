@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(), // <--- Añade esto
   ],
-  base: '/portafolio-marbin-alarcon/'
+  base: '/portafolio-marbin-alarcon/',
 })
