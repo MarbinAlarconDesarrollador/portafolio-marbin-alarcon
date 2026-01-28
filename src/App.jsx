@@ -32,17 +32,26 @@ function App() {
     {
       id: 1,
       title: "Wordle Pro - Torneo Móvil ",
-      description: "Sistema inteligente que gestiona flujos de clientes, horarios y confirmaciones automáticamente mediante la API de WhatsApp Business.",
-      tech: "VITE + JavaScript + Tailwind CSS + Node.js",
-      tags: ["Node.js", "VITE", "JavaScript", "Tailwind CSS"],
+      description: "Juego web tipo Wordle desarrollado en JavaScript que permite adivinar palabras de 5 letras en 6 intentos. Incluye animaciones, sonidos, teclado virtual, sistema de puntuación con racha, modo oscuro, persistencia de datos con LocalStorage, opción de compartir resultados y soporte PWA para funcionamiento offline e instalación móvil.",
+      tech: "CSS + JavaScript Vanilla + HTML + LocalStorage + Web Audio API +Service Workers (PWA) +API de vibración + Canvas-confetti (librería externa)",
+      tags: ["CSS", "JavaScript", "HTML"],
       image: "proyecto3.png",
       link: "https://marbinalarcondesarrollador.github.io/WordleTorneoMovil/"
     },
     {
+      id: 4,
+      title: "saludsantander.gov.co",
+      description: "Aunque el contenido principal es estático e institucional, el sitio fue desarrollado como parte de un proyecto colaborativo entre la Secretaría de Salud de Santander, la Universidad Industrial de Santander (UIS) y Creando Soft, mostrando un enfoque en módulos informativos estructurados sobre HTML y menús dinámicos.",
+      tech: "PHP + Postgresql",
+      tags: ["PHP", "postgresql"],
+      image: "proyecto5.png",
+      link: "https://github.com/MarbinAlarconDesarrollador"
+    },
+    {
       id: 2,
       title: "Vita Mahjong Deluxe - PWA",
-      description: "Panel administrativo diseñado rigurosamente bajo estándares de accesibilidad, optimizado para lectores de pantalla y navegación por teclado.",
-      tech: "CSS + JavaScript + HTML",
+      description: "Juego web tipo Mahjong desarrollado en JavaScript, con generación procedural de niveles en 3D, sistema de emparejamiento por reglas tradicionales, temporizador dinámico, efectos visuales y sonoros en tiempo real, y soporte PWA para funcionamiento offline e instalación móvil",
+      tech: "CSS + JavaScript Vanilla + HTML + Web Audio API (sonido sintetizado) + Progressive Web App (PWA) + Animaciones CSS",
       tags: ["CSS", "JavaScript", "HTML"],
       image: "proyecto1.png",
       link: "https://marbinalarcondesarrollador.github.io/Vita-Mahjong/"
@@ -50,20 +59,11 @@ function App() {
     {
       id: 3,
       title: "Block Puzzle",
-      description: "Interfaz diseñada para alta legibilidad, navegación por teclado y soporte total de lectores de pantalla.",
-      tech: "React",
-      tags: ["React", "A11y"],
+      description: "Juego web de lógica desarrollado en JavaScript con HTML5 Canvas, basado en colocación estratégica de piezas sobre un tablero 9×9. Incluye drag & drop multiplataforma, sistema de bombas como power-ups, progresión por niveles, efectos visuales tipo neón y soporte para pantalla completa.",
+      tech: "CSS + JavaScript Vanilla + HTML + Canvas + Eventos Mouse & Touch + LocalStorage (high score) + Fullscreen API + requestAnimationFrame",
+      tags: ["CSS", "JavaScript", "HTML"],
       image: "proyecto4.png",
-      link: "https://github.com/MarbinAlarconDesarrollador"
-    },
-    {
-      id: 4,
-      title: "Plataforma de E-learning",
-      description: "Sistema de gestión de cursos con funcionalidades para estudiantes y profesores, integrado con pasarelas de pago.",
-      tech: "PHP",
-      tags: ["PHP", "Laravel"],
-      image: "proyecto2.png",
-      link: "https://github.com/MarbinAlarconDesarrollador"
+      link: " https://marbinalarcondesarrollador.github.io/blockPuzzleMajo/"
     }
   ];
 
@@ -330,7 +330,7 @@ function App() {
             whileInView={{ opacity: 0.08, scale: 1 }} // Subí la opacidad aquí
             transition={{ duration: 1.5 }}
             viewport={{ once: true }}
-            src="/logo.png" // <--- ASEGÚRATE QUE ESTE NOMBRE SEA EXACTO
+            src="logo.png" // <--- ASEGÚRATE QUE ESTE NOMBRE SEA EXACTO
             alt=""
             className="w-[300px] md:w-[500px] h-auto grayscale object-contain"
             onError={(e) => { e.target.style.display = 'none'; console.log("No se encontró la imagen en la ruta especificada"); }}
